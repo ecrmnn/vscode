@@ -2,7 +2,7 @@
 My personal VS Code setup
 
 
-### Extensions
+## Extensions
 #### General
 - Atom One Dark Theme `akamud.vscode-theme-onedark`
 - Case-Sensitive Add Next Occurence `akamud.vscode-theme-onedark`
@@ -15,6 +15,6 @@ My personal VS Code setup
 - PHP Namespace Resolver `mehedidracula.php-namespace-resolver`
 - phpcs `ikappas.phpcs`
 
-### CLI
+## CLI
 #### PHP
 - [php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
