@@ -1,0 +1,34 @@
+{
+    "workbench.editor.showTabs": false,
+    "phpcs.standard": "PSR2",
+    "workbench.activityBar.visible": false,
+    "editor.fontSize": 14.6,
+    "editor.lineHeight": 28,
+    "editor.fontFamily": "Hack",
+    "files.autoSave": "afterDelay",
+    "workbench.sideBar.location": "left",
+    "workbench.statusBar.feedback.visible": false,
+    "editor.mouseWheelScrollSensitivity": 0.7,
+    "phpcs.enable": true,
+    "phpcs.ignorePatterns": [
+        "vendor/*",
+    ],
+    "[php]": {
+        "editor.rulers": [
+            120
+        ],
+    },
+    "[javascript]": {
+        "editor.rulers": [
+            100
+        ],
+    },
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Atom One Dark",
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false,
+    "editor.snippetSuggestions": "top",
+    "intelephense.completionProvider.maxItems": 30,
+    "php.suggest.basic": false,
+    "files.autoSaveDelay": 500,
+}
