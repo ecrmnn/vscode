@@ -14,3 +14,7 @@ My personal VS Code setup
 - PHP Intelephense `bmewburn.vscode-intelephense-client`
 - PHP Namespace Resolver `mehedidracula.php-namespace-resolver`
 - phpcs `ikappas.phpcs`
+
+### CLI
+#### PHP
+- [php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
