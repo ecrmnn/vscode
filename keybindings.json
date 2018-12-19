@@ -17,6 +17,11 @@
         "when": "editorTextFocus && !editorReadonly && editorLangId == php"
     },
     {
+        "key": "alt+cmd+l",
+        "command": "eslint.executeAutofix",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == javascript"
+    },
+    {
         "key": "alt+up",
         "command": "editor.action.smartSelect.grow",
         "when": "editorTextFocus"
