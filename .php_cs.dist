@@ -17,6 +17,8 @@ $config = PhpCsFixer\Config::create()
         'strict_param' => true,
         'concat_space' => ['spacing' => 'one'],
         'array_syntax' => ['syntax' => 'short'],
+        'no_unused_imports' => true,
+        'no_useless_else' => true,
     ])
     ->setFinder($finder);
 
