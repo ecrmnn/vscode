@@ -9,16 +9,27 @@
     "workbench.sideBar.location": "left",
     "workbench.statusBar.feedback.visible": false,
     "editor.mouseWheelScrollSensitivity": 0.7,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#1A1A1A",
+        "statusBar.noFolderBackground": "#212121",
+        "statusBar.debuggingBackground": "#263238",
+        "sideBar.background": "#1f2128",
+        "editor.background": "#1f2128"
+    },
     "phpcs.enable": true,
     "phpcs.ignorePatterns": [
         "vendor/*",
     ],
+    // "phpfmt.passes": [
+    //     "RestoreComments"
+    // ],
     "[php]": {
         "editor.rulers": [
             120
         ],
     },
     "[javascript]": {
+        "editor.tabSize": 2,
         "editor.rulers": [
             100
         ],
@@ -31,4 +42,5 @@
     "intelephense.completionProvider.maxItems": 30,
     "php.suggest.basic": false,
     "files.autoSaveDelay": 500,
+    "blade.format.enable": true,
 }
