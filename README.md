@@ -5,7 +5,7 @@ My personal VS Code setup
 ## Extensions
 #### General
 - Atom One Dark Theme `akamud.vscode-theme-onedark`
-- Case-Sensitive Add Next Occurence `akamud.vscode-theme-onedark`
+- Case-Sensitive Add Next Occurence `jacobkantzer.case-sensitive-add-next`
 
 #### JavaScript
 - ES Lint `dbaeumer.vscode-eslint`
