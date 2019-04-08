@@ -19,6 +19,8 @@ $config = PhpCsFixer\Config::create()
         'array_syntax' => ['syntax' => 'short'],
         'no_unused_imports' => true,
         'no_useless_else' => true,
+        'blank_line_before_statement' => true,
+        'whitespace_after_comma_in_array' => true,
     ])
     ->setFinder($finder);
 
