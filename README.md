@@ -6,7 +6,7 @@ My personal VS Code setup
 - Atom One Dark Theme `akamud.vscode-theme-onedark`
 - Case-Sensitive Add Next Occurence `jacobkantzer.case-sensitive-add-next`
 - Global Config `gruntfuggly.global-config`
-  - See Apply global config
+  - See [apply global config](#apply-global-config)
 
 #### JavaScript
 - ES Lint `dbaeumer.vscode-eslint`
