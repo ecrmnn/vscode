@@ -3,7 +3,7 @@
     "workbench.activityBar.visible": false,
     "editor.fontSize": 14.5,
     "editor.lineHeight": 28,
-    "editor.fontFamily": "Menlo",
+    "editor.fontFamily": "Gintronic",
     "files.autoSave": "afterDelay",
     "workbench.sideBar.location": "left",
     "workbench.statusBar.feedback.visible": false,
@@ -43,8 +43,6 @@
     "window.zoomLevel": 0,
     "explorer.confirmDelete": false,
     "editor.snippetSuggestions": "top",
-    "intelephense.completionProvider.maxItems": 30,
-    "intelephense.formatProvider.enable": false,
     "php.suggest.basic": false,
     "files.autoSaveDelay": 500,
     "eslint.autoFixOnSave": true,
@@ -78,4 +76,8 @@
     "terminal.integrated.lineHeight": 1.5,
     "explorer.confirmDragAndDrop": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
+    "global-config.links": [
+        "tasks.json"
+    ],
+    "phpcs.standard": "PSR2"
 }
