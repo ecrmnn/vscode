@@ -6,6 +6,23 @@
         "when": "editorTextFocus",
     },
     {
+        "key": "cmd+d",
+        "command": "extension.caseSensitiveAddNext",
+        "when": "editorTextFocus",
+    },
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.tasks.runTask",
+        "args": "phpunit-current-test",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == php"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.action.tasks.runTask",
+        "args": "phpunit-current-class",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == php"
+    },
+    {
         "key": "alt+cmd+l",
         "command": "editor.action.formatDocument",
         "when": "editorTextFocus && !editorReadonly"
@@ -21,6 +38,12 @@
         "command": "eslint.executeAutofix",
         "when": "editorTextFocus && !editorReadonly && editorLangId == javascript"
     },
+    {
+        "key": "alt+cmd+l",
+        "command": "eslint.executeAutofix",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == vue"
+    },
+    
     {
         "key": "alt+up",
         "command": "editor.action.smartSelect.grow",
@@ -44,10 +67,6 @@
     {
         "key": "cmd+e",
         "command": "workbench.action.openNextRecentlyUsedEditorInGroup"
-    },
-    {
-        "key": "ctrl+tab",
-        "command": "-workbench.action.openNextRecentlyUsedEditorInGroup"
     },
     {
         "key": "cmd+numpad_divide",
@@ -78,5 +97,51 @@
         "key": "alt+down",
         "command": "-editor.action.moveLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+l",
+        "command": "workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+shift+space",
+        "command": "editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "-editor.action.triggerSuggest",
+        "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+[Semicolon]",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+shift+[Equal]",
+        "command": "-workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "cmd+g",
+        "command": "editor.action.referenceSearch.trigger",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "shift+f12",
+        "command": "-editor.action.referenceSearch.trigger",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "cmd+g",
+        "command": "references-view.find",
+        "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "shift+alt+f12",
+        "command": "-references-view.find",
+        "when": "editorHasReferenceProvider"
     }
 ]
