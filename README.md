@@ -14,6 +14,7 @@ My personal VS Code setup
 #### PHP
 - PHP Intelephense `bmewburn.vscode-intelephense-client`
 - PHP Namespace Resolver `mehedidracula.php-namespace-resolver`
+- Laravel Blade Snippets `onecentlin.laravel-blade`
 - phpcs `ikappas.phpcs`
   - Remember to add `"phpcs.standard": "PSR2"` in `settings.json`
 
