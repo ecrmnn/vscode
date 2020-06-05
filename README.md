@@ -5,11 +5,14 @@ My personal VS Code setup
 #### General
 - Atom One Dark Theme `akamud.vscode-theme-onedark`
 - Case-Sensitive Add Next Occurence `jacobkantzer.case-sensitive-add-next`
+- DotENV `mikestead.dotenv`
+- TOML `be5invis.toml`
 - Global Config `gruntfuggly.global-config`
   - See [apply global config](#apply-global-config)
 
 #### JavaScript
 - ES Lint `dbaeumer.vscode-eslint`
+- Vetur `octref.vetur`
 
 #### PHP
 - PHP Intelephense `bmewburn.vscode-intelephense-client`
